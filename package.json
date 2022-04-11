@@ -1,0 +1,17 @@
+{
+  "name": "spectral-lint",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "spectral-lint": "spectral lint -f json -o output.json"
+  },
+  "author": "weidxu",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@octokit/rest": "^18.12.0",
+    "@stoplight/spectral-cli": "^6.3.0"
+  }
+}
