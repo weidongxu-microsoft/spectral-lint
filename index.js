@@ -45,9 +45,11 @@ async function lintAsync() {
                     if (severity <= 1) {
                         const message = lintResult.message;
                         var start = lintResult.range.start.line + 1;
-                        const end = lintResult.range.end.line + 1;
+                        var end = lintResult.range.end.line + 1;
                         if (start == end) {
                             start = undefined;
+                        } else {
+                            end = end + 1;
                         };
 
                         console.log(`comment "${message}" on line ${end}`);
