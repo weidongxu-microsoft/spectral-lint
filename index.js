@@ -42,21 +42,11 @@ async function lintAsync() {
             if (fs.existsSync(lintOutputFilepath)) {
                 const lintResults = JSON.parse(fs.readFileSync(lintOutputFilepath, { encoding: 'utf-8' }));
                 logLintResults(lintResults, url);
-                // await githubReviewComment(octokit, lintResults);
+                // await githubReview(lintResults, octokit, owner, repo, pullNumber, url);
+                await githubReviewComments(lintResults, octokit, owner, repo, pullNumber, commitId, filename);
             }
         }
     }
-}
-
-function startEndFromRange(range) {
-    var start = range.start.line + 1;
-    var end = range.end.line + 1;
-    if (start == end) {
-        start = undefined;
-    } else {
-        end = end + 1;
-    }
-    return [start, end];
 }
 
 function logLintResults(lintResults, url) {
@@ -72,29 +62,69 @@ function logLintResults(lintResults, url) {
     }
 }
 
-async function githubReviewComment(octokit, lintResults) {
+async function githubReview(lintResults, octokit, owner, repo, pullNumber, url) {
+    var markdown = "| Message | Location |\n";
+    markdown += "|---|---|\n";
+    const fileShort = new URL(url).pathname.split("/").pop();
+    for (const lintResult of lintResults) {
+        const message = lintResult.message;
+        const [start, end] = startEndFromRange(lintResult.range);
+        var fileLocation;
+        if (start) {
+            fileLocation = `#L${start}-L${end}`;
+        } else {
+            fileLocation = `#L${end}`;
+        }
+        markdown += `| ${message} | [${fileShort}${fileLocation}](${url}${fileLocation}) |\n`
+    }
+
+    await octokit.rest.pulls.createReview({
+        owner: owner, 
+        repo: repo, 
+        pull_number: pullNumber,
+        body: markdown,
+        event: "COMMENT"
+    });
+}
+
+async function githubReviewComments(lintResults, octokit, owner, repo, pullNumber, commitId, filename) {
+    const comments = [];
     for (const lintResult of lintResults) {
         const severity = lintResult.severity;
         if (severity <= 1) {
             const message = lintResult.message;
             const [start, end] = startEndFromRange(lintResult.range);
 
-            console.log(`comment "${message}" on line ${end}`);
-            await octokit.rest.pulls.createReviewComment({
-                owner: owner, 
-                repo: repo, 
-                pull_number: pullNumber,
+            comments.push({
                 body: message, 
-                commit_id: commitId, 
                 path: filename, 
                 start_line: start, 
                 line: end,
                 side: "RIGHT"
             });
-            // rate limit
-            await new Promise(r => setTimeout(r, 10* 1000));
         }
     }
+
+    await octokit.rest.pulls.createReview({
+        owner: owner, 
+        repo: repo, 
+        pull_number: pullNumber,
+        body: "spectral lint",
+        commit_id: commitId, 
+        event: "COMMENT",
+        comments: comments
+    });
+}
+
+function startEndFromRange(range) {
+    var start = range.start.line + 1;
+    var end = range.end.line + 1;
+    if (start == end) {
+        start = undefined;
+    } else {
+        end = end + 1;
+    }
+    return [start, end];
 }
 
 async function exec(command) {
