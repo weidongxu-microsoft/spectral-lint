@@ -32,32 +32,52 @@ async function lintAsync() {
             console.log(`found JSON ${filename} from pull request ${pullNumber}`);
 
             const rawUrl = `https://raw.githubusercontent.com/Azure/azure-rest-api-specs/${commitId}/${filename}`;
+            const url = `https://www.github.com/Azure/azure-rest-api-specs/blob/${commitId}/${filename}`;
             console.log(`linting ${rawUrl}`);
             if (fs.existsSync(lintOutputFilepath)) { 
                 fs.rmSync(lintOutputFilepath);
-            };
+            }
             await exec(`npm run spectral-lint ${rawUrl}`);
             
             if (fs.existsSync(lintOutputFilepath)) {
                 const lintResults = JSON.parse(fs.readFileSync(lintOutputFilepath, { encoding: 'utf-8' }));
-                await githubReviewComment(octokit, lintResults);
-            };
-        };
-    };
-};
+                logLintResults(lintResults, url);
+                // await githubReviewComment(octokit, lintResults);
+            }
+        }
+    }
+}
+
+function startEndFromRange(range) {
+    var start = range.start.line + 1;
+    var end = range.end.line + 1;
+    if (start == end) {
+        start = undefined;
+    } else {
+        end = end + 1;
+    }
+    return [start, end];
+}
+
+function logLintResults(lintResults, url) {
+    for (const lintResult of lintResults) {
+        const message = lintResult.message;
+        const [start, end] = startEndFromRange(lintResult.range);
+        console.log(`${lintResult.severity}\t${end}\t${message}`);
+        if (start) {
+            console.log(`${url}#L${start}-L${end}`);
+        } else {
+            console.log(`${url}#L${end}`);
+        }
+    }
+}
 
 async function githubReviewComment(octokit, lintResults) {
     for (const lintResult of lintResults) {
         const severity = lintResult.severity;
         if (severity <= 1) {
             const message = lintResult.message;
-            var start = lintResult.range.start.line + 1;
-            var end = lintResult.range.end.line + 1;
-            if (start == end) {
-                start = undefined;
-            } else {
-                end = end + 1;
-            };
+            const [start, end] = startEndFromRange(lintResult.range);
 
             console.log(`comment "${message}" on line ${end}`);
             await octokit.rest.pulls.createReviewComment({
@@ -73,8 +93,8 @@ async function githubReviewComment(octokit, lintResults) {
             });
             // rate limit
             await new Promise(r => setTimeout(r, 10* 1000));
-        };
-    };
+        }
+    }
 }
 
 async function exec(command) {
@@ -83,6 +103,6 @@ async function exec(command) {
             done({ stdout, stderr });
         });
     });
-};
+}
 
 lintAsync();
