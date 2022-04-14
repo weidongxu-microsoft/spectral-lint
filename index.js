@@ -7,7 +7,7 @@ const { Octokit } = require("@octokit/rest");
 async function lintAsync() {
     const owner = "Azure";
     const repo = "azure-rest-api-specs";
-    const pullNumber = 18654;
+    const pullNumber = 18688;
 
     const lintOutputFilepath = path.join(__dirname, "output.json")
 
@@ -40,38 +40,42 @@ async function lintAsync() {
             
             if (fs.existsSync(lintOutputFilepath)) {
                 const lintResults = JSON.parse(fs.readFileSync(lintOutputFilepath, { encoding: 'utf-8' }));
-                for (const lintResult of lintResults) {
-                    const severity = lintResult.severity;
-                    if (severity <= 1) {
-                        const message = lintResult.message;
-                        var start = lintResult.range.start.line + 1;
-                        var end = lintResult.range.end.line + 1;
-                        if (start == end) {
-                            start = undefined;
-                        } else {
-                            end = end + 1;
-                        };
-
-                        console.log(`comment "${message}" on line ${end}`);
-                        await octokit.rest.pulls.createReviewComment({
-                            owner: owner, 
-                            repo: repo, 
-                            pull_number: pullNumber,
-                            body: message, 
-                            commit_id: commitId, 
-                            path: filename, 
-                            start_line: start, 
-                            line: end,
-                            side: "RIGHT"
-                        });
-                        // rate limit
-                        await new Promise(r => setTimeout(r, 10* 1000));
-                    };
-                };
+                await githubReviewComment(octokit, lintResults);
             };
         };
     };
 };
+
+async function githubReviewComment(octokit, lintResults) {
+    for (const lintResult of lintResults) {
+        const severity = lintResult.severity;
+        if (severity <= 1) {
+            const message = lintResult.message;
+            var start = lintResult.range.start.line + 1;
+            var end = lintResult.range.end.line + 1;
+            if (start == end) {
+                start = undefined;
+            } else {
+                end = end + 1;
+            };
+
+            console.log(`comment "${message}" on line ${end}`);
+            await octokit.rest.pulls.createReviewComment({
+                owner: owner, 
+                repo: repo, 
+                pull_number: pullNumber,
+                body: message, 
+                commit_id: commitId, 
+                path: filename, 
+                start_line: start, 
+                line: end,
+                side: "RIGHT"
+            });
+            // rate limit
+            await new Promise(r => setTimeout(r, 10* 1000));
+        };
+    };
+}
 
 async function exec(command) {
     return new Promise((done, failed) => {

@@ -1,0 +1,6132 @@
+[
+	{
+		"code": "az-version-convention",
+		"path": [
+			"info",
+			"version"
+		],
+		"message": "API version should be a date in YYYY-MM-DD format, optionally suffixed with '-preview'.",
+		"severity": 0,
+		"range": {
+			"start": {
+				"line": 5,
+				"character": 15
+			},
+			"end": {
+				"line": 5,
+				"character": 28
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"ADGroupUser"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 29,
+				"character": 18
+			},
+			"end": {
+				"line": 49,
+				"character": 18
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-names-convention",
+		"path": [
+			"definitions",
+			"ADGroupUser"
+		],
+		"message": "Schema name should be Pascal case.",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 29,
+				"character": 18
+			},
+			"end": {
+				"line": 49,
+				"character": 18
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"ApiToken"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 55,
+				"character": 15
+			},
+			"end": {
+				"line": 76,
+				"character": 31
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"ApiTokenCollection"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 80,
+				"character": 25
+			},
+			"end": {
+				"line": 96,
+				"character": 15
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"Attestation"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 99,
+				"character": 18
+			},
+			"end": {
+				"line": 110,
+				"character": 29
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"BlobStorageV1Destination"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 112,
+				"character": 31
+			},
+			"end": {
+				"line": 126,
+				"character": 23
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"BlobStorageV1DestinationAuth"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 129,
+				"character": 35
+			},
+			"end": {
+				"line": 140,
+				"character": 29
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"BlobStorageV1DestinationConnectionStringAuth"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 142,
+				"character": 51
+			},
+			"end": {
+				"line": 162,
+				"character": 23
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"BlobStorageV1DestinationSystemAssignedManagedIdentityAuth"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 165,
+				"character": 64
+			},
+			"end": {
+				"line": 185,
+				"character": 23
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"CapabilityJobData"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 188,
+				"character": 24
+			},
+			"end": {
+				"line": 207,
+				"character": 14
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"CloudPropertyJobData"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 210,
+				"character": 27
+			},
+			"end": {
+				"line": 217,
+				"character": 51
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"Collection"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 221,
+				"character": 17
+			},
+			"end": {
+				"line": 237,
+				"character": 15
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"CommandJobData"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 240,
+				"character": 21
+			},
+			"end": {
+				"line": 247,
+				"character": 51
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"DataExplorerV1Destination"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 251,
+				"character": 32
+			},
+			"end": {
+				"line": 280,
+				"character": 23
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"DataExplorerV1DestinationAuth"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 283,
+				"character": 36
+			},
+			"end": {
+				"line": 294,
+				"character": 29
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"DataExplorerV1DestinationServicePrincipalAuth"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 296,
+				"character": 52
+			},
+			"end": {
+				"line": 321,
+				"character": 22
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"DataExplorerV1DestinationSystemAssignedManagedIdentityAuth"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 324,
+				"character": 65
+			},
+			"end": {
+				"line": 328,
+				"character": 63
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"DataExportError"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 332,
+				"character": 22
+			},
+			"end": {
+				"line": 343,
+				"character": 26
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"DataExportStatus"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 347,
+				"character": 23
+			},
+			"end": {
+				"line": 367,
+				"character": 26
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"Destination"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 371,
+				"character": 18
+			},
+			"end": {
+				"line": 397,
+				"character": 29
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"DestinationCollection"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 399,
+				"character": 28
+			},
+			"end": {
+				"line": 415,
+				"character": 15
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"DestinationExport"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 418,
+				"character": 24
+			},
+			"end": {
+				"line": 428,
+				"character": 95
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"DestinationReference"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 432,
+				"character": 27
+			},
+			"end": {
+				"line": 445,
+				"character": 12
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"Device"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 448,
+				"character": 13
+			},
+			"end": {
+				"line": 487,
+				"character": 23
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"DeviceCollection"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 491,
+				"character": 23
+			},
+			"end": {
+				"line": 507,
+				"character": 15
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"DeviceCommand"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 510,
+				"character": 20
+			},
+			"end": {
+				"line": 540,
+				"character": 26
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-property-type",
+		"path": [
+			"definitions",
+			"DeviceCommand",
+			"properties",
+			"request"
+		],
+		"message": "Property should have a defined type.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 530,
+				"character": 18
+			},
+			"end": {
+				"line": 531,
+				"character": 62
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-property-type",
+		"path": [
+			"definitions",
+			"DeviceCommand",
+			"properties",
+			"response"
+		],
+		"message": "Property should have a defined type.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 533,
+				"character": 19
+			},
+			"end": {
+				"line": 535,
+				"character": 26
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"DeviceCommandCollection"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 544,
+				"character": 30
+			},
+			"end": {
+				"line": 560,
+				"character": 15
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"DeviceCredentials"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 563,
+				"character": 24
+			},
+			"end": {
+				"line": 584,
+				"character": 17
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"DeviceGroup"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 587,
+				"character": 18
+			},
+			"end": {
+				"line": 622,
+				"character": 16
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"DeviceGroupCollection"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 625,
+				"character": 28
+			},
+			"end": {
+				"line": 641,
+				"character": 15
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"DeviceRelationshipCollection"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 672,
+				"character": 35
+			},
+			"end": {
+				"line": 688,
+				"character": 15
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"DeviceTelemetry"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 691,
+				"character": 22
+			},
+			"end": {
+				"line": 700,
+				"character": 31
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-property-type",
+		"path": [
+			"definitions",
+			"DeviceTelemetry",
+			"properties",
+			"value"
+		],
+		"message": "Property should have a defined type.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 694,
+				"character": 16
+			},
+			"end": {
+				"line": 695,
+				"character": 73
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"DeviceTemplate"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 704,
+				"character": 21
+			},
+			"end": {
+				"line": 742,
+				"character": 25
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-property-names-convention",
+		"path": [
+			"definitions",
+			"DeviceTemplate",
+			"properties",
+			"@id"
+		],
+		"message": "Property name should be camel case.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 707,
+				"character": 14
+			},
+			"end": {
+				"line": 710,
+				"character": 26
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-property-names-convention",
+		"path": [
+			"definitions",
+			"DeviceTemplate",
+			"properties",
+			"@type"
+		],
+		"message": "Property name should be camel case.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 712,
+				"character": 16
+			},
+			"end": {
+				"line": 716,
+				"character": 28
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"DeviceTemplateCollection"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 745,
+				"character": 31
+			},
+			"end": {
+				"line": 761,
+				"character": 15
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"DeviceTemplateMigrationJobData"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 764,
+				"character": 37
+			},
+			"end": {
+				"line": 780,
+				"character": 18
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"EmailUser"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 783,
+				"character": 16
+			},
+			"end": {
+				"line": 799,
+				"character": 15
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"Enrichment"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 802,
+				"character": 17
+			},
+			"end": {
+				"line": 814,
+				"character": 65
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-property-type",
+		"path": [
+			"definitions",
+			"Enrichment",
+			"properties",
+			"value"
+		],
+		"message": "Property should have a defined type.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 813,
+				"character": 16
+			},
+			"end": {
+				"line": 814,
+				"character": 65
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"definitions",
+			"Error"
+		],
+		"message": "The `error` property in the error response schema should be required.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 818,
+				"character": 12
+			},
+			"end": {
+				"line": 823,
+				"character": 46
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"Error"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 818,
+				"character": 12
+			},
+			"end": {
+				"line": 823,
+				"character": 46
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"definitions",
+			"Error",
+			"properties",
+			"error"
+		],
+		"message": "Error schema should define `code` and `message` properties as required.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 821,
+				"character": 16
+			},
+			"end": {
+				"line": 823,
+				"character": 46
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"ErrorDetails"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 827,
+				"character": 19
+			},
+			"end": {
+				"line": 844,
+				"character": 56
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"EventHubsV1Destination"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 848,
+				"character": 29
+			},
+			"end": {
+				"line": 862,
+				"character": 23
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"EventHubsV1DestinationAuth"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 865,
+				"character": 33
+			},
+			"end": {
+				"line": 876,
+				"character": 29
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"EventHubsV1DestinationConnectionStringAuth"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 878,
+				"character": 49
+			},
+			"end": {
+				"line": 893,
+				"character": 26
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"EventHubsV1DestinationSystemAssignedManagedIdentityAuth"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 896,
+				"character": 62
+			},
+			"end": {
+				"line": 916,
+				"character": 22
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"Export"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 919,
+				"character": 13
+			},
+			"end": {
+				"line": 1005,
+				"character": 22
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"ExportCollection"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1008,
+				"character": 23
+			},
+			"end": {
+				"line": 1024,
+				"character": 15
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"ExportDestination"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1027,
+				"character": 24
+			},
+			"end": {
+				"line": 1037,
+				"character": 95
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"FileUpload"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1041,
+				"character": 17
+			},
+			"end": {
+				"line": 1105,
+				"character": 19
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"Job"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1108,
+				"character": 10
+			},
+			"end": {
+				"line": 1161,
+				"character": 14
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"JobBatch"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1164,
+				"character": 15
+			},
+			"end": {
+				"line": 1198,
+				"character": 15
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"JobCancellationThreshold"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1201,
+				"character": 31
+			},
+			"end": {
+				"line": 1239,
+				"character": 15
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"JobCollection"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1242,
+				"character": 20
+			},
+			"end": {
+				"line": 1258,
+				"character": 15
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"JobData"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1261,
+				"character": 14
+			},
+			"end": {
+				"line": 1272,
+				"character": 29
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"JobDeviceStatus"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1274,
+				"character": 22
+			},
+			"end": {
+				"line": 1284,
+				"character": 26
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"JobDeviceStatusCollection"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1288,
+				"character": 32
+			},
+			"end": {
+				"line": 1304,
+				"character": 15
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"Organization"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1307,
+				"character": 19
+			},
+			"end": {
+				"line": 1321,
+				"character": 26
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"OrganizationCollection"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1325,
+				"character": 29
+			},
+			"end": {
+				"line": 1341,
+				"character": 15
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"Permission"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1344,
+				"character": 17
+			},
+			"end": {
+				"line": 1357,
+				"character": 15
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"PropertyJobData"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1360,
+				"character": 22
+			},
+			"end": {
+				"line": 1367,
+				"character": 51
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"QueryRequest"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1371,
+				"character": 19
+			},
+			"end": {
+				"line": 1380,
+				"character": 15
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"QueryResponse"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1383,
+				"character": 20
+			},
+			"end": {
+				"line": 1394,
+				"character": 17
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-property-description",
+		"path": [
+			"definitions",
+			"QueryResponse",
+			"properties",
+			"results"
+		],
+		"message": "Property should have a description.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1386,
+				"character": 18
+			},
+			"end": {
+				"line": 1389,
+				"character": 28
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"Role"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1397,
+				"character": 11
+			},
+			"end": {
+				"line": 1407,
+				"character": 26
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"RoleAssignment"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1411,
+				"character": 21
+			},
+			"end": {
+				"line": 1424,
+				"character": 14
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"RoleCollection"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1427,
+				"character": 21
+			},
+			"end": {
+				"line": 1443,
+				"character": 15
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"ServiceBusQueueV1Destination"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1446,
+				"character": 35
+			},
+			"end": {
+				"line": 1460,
+				"character": 23
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"ServiceBusQueueV1DestinationAuth"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1463,
+				"character": 39
+			},
+			"end": {
+				"line": 1474,
+				"character": 29
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"ServiceBusQueueV1DestinationConnectionStringAuth"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1476,
+				"character": 55
+			},
+			"end": {
+				"line": 1491,
+				"character": 26
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"ServiceBusQueueV1DestinationSystemAssignedManagedIdentityAuth"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1494,
+				"character": 68
+			},
+			"end": {
+				"line": 1514,
+				"character": 19
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"ServiceBusTopicV1Destination"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1517,
+				"character": 35
+			},
+			"end": {
+				"line": 1531,
+				"character": 23
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"ServiceBusTopicV1DestinationAuth"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1534,
+				"character": 39
+			},
+			"end": {
+				"line": 1545,
+				"character": 29
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"ServiceBusTopicV1DestinationConnectionStringAuth"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1547,
+				"character": 55
+			},
+			"end": {
+				"line": 1562,
+				"character": 26
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"ServiceBusTopicV1DestinationSystemAssignedManagedIdentityAuth"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1565,
+				"character": 68
+			},
+			"end": {
+				"line": 1585,
+				"character": 19
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"ServicePrincipalUser"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1588,
+				"character": 27
+			},
+			"end": {
+				"line": 1608,
+				"character": 18
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"SymmetricKey"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1611,
+				"character": 19
+			},
+			"end": {
+				"line": 1625,
+				"character": 22
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"SymmetricKeyAttestation"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1628,
+				"character": 30
+			},
+			"end": {
+				"line": 1643,
+				"character": 22
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"Tpm"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1646,
+				"character": 10
+			},
+			"end": {
+				"line": 1655,
+				"character": 24
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"TpmAttestation"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1658,
+				"character": 21
+			},
+			"end": {
+				"line": 1673,
+				"character": 13
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"User"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1676,
+				"character": 11
+			},
+			"end": {
+				"line": 1697,
+				"character": 29
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"UserCollection"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1699,
+				"character": 21
+			},
+			"end": {
+				"line": 1715,
+				"character": 15
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"WebhookV1Destination"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1718,
+				"character": 27
+			},
+			"end": {
+				"line": 1750,
+				"character": 13
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"WebhookV1DestinationAuth"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1753,
+				"character": 31
+			},
+			"end": {
+				"line": 1764,
+				"character": 29
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"WebhookV1DestinationCustomization"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1766,
+				"character": 40
+			},
+			"end": {
+				"line": 1779,
+				"character": 15
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"WebhookV1DestinationHeaderAuth"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1782,
+				"character": 37
+			},
+			"end": {
+				"line": 1797,
+				"character": 15
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"WebhookV1DestinationOAuthAuth"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1800,
+				"character": 36
+			},
+			"end": {
+				"line": 1863,
+				"character": 22
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-names-convention",
+		"path": [
+			"definitions",
+			"WebhookV1DestinationOAuthAuth"
+		],
+		"message": "Schema name should be Pascal case.",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 1800,
+				"character": 36
+			},
+			"end": {
+				"line": 1863,
+				"character": 22
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"X509"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1866,
+				"character": 11
+			},
+			"end": {
+				"line": 1871,
+				"character": 50
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"X509Attestation"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1875,
+				"character": 22
+			},
+			"end": {
+				"line": 1890,
+				"character": 14
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"X509Certificate"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1893,
+				"character": 22
+			},
+			"end": {
+				"line": 1903,
+				"character": 53
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"X509CertificateInfo"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1907,
+				"character": 26
+			},
+			"end": {
+				"line": 1916,
+				"character": 24
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-schema-description-or-title",
+		"path": [
+			"definitions",
+			"X509Certificates"
+		],
+		"message": "Schema should have a description or title.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1919,
+				"character": 23
+			},
+			"end": {
+				"line": 1932,
+				"character": 17
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/apiTokens",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1961,
+				"character": 20
+			},
+			"end": {
+				"line": 1964,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"paths",
+			"/apiTokens/{tokenId}",
+			"get",
+			"parameters",
+			"1"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 1983,
+				"character": 10
+			},
+			"end": {
+				"line": 1988,
+				"character": 28
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/apiTokens/{tokenId}",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 1998,
+				"character": 20
+			},
+			"end": {
+				"line": 2001,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"paths",
+			"/apiTokens/{tokenId}",
+			"put",
+			"parameters",
+			"1"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 2018,
+				"character": 10
+			},
+			"end": {
+				"line": 2023,
+				"character": 28
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/apiTokens/{tokenId}",
+			"put",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2042,
+				"character": 20
+			},
+			"end": {
+				"line": 2045,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-operation-id",
+		"path": [
+			"paths",
+			"/apiTokens/{tokenId}",
+			"delete",
+			"operationId"
+		],
+		"message": "OperationId for delete method should contain \"Delete\"",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2051,
+				"character": 23
+			},
+			"end": {
+				"line": 2051,
+				"character": 41
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"paths",
+			"/apiTokens/{tokenId}",
+			"delete",
+			"parameters",
+			"1"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 2062,
+				"character": 10
+			},
+			"end": {
+				"line": 2067,
+				"character": 28
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/apiTokens/{tokenId}",
+			"delete",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2074,
+				"character": 20
+			},
+			"end": {
+				"line": 2077,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/dataExport/destinations",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2107,
+				"character": 20
+			},
+			"end": {
+				"line": 2110,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/dataExport/destinations/{destinationId}",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2140,
+				"character": 20
+			},
+			"end": {
+				"line": 2143,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/dataExport/destinations/{destinationId}",
+			"put",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2196,
+				"character": 20
+			},
+			"end": {
+				"line": 2199,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-patch-content-type",
+		"path": [
+			"paths",
+			"/dataExport/destinations/{destinationId}",
+			"patch",
+			"consumes"
+		],
+		"message": "A patch operation should consume 'application/merge-patch+json' content type.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2213,
+				"character": 19
+			},
+			"end": {
+				"line": 2215,
+				"character": 39
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/dataExport/destinations/{destinationId}",
+			"patch",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2241,
+				"character": 20
+			},
+			"end": {
+				"line": 2244,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-operation-id",
+		"path": [
+			"paths",
+			"/dataExport/destinations/{destinationId}",
+			"delete",
+			"operationId"
+		],
+		"message": "OperationId for delete method should contain \"Delete\"",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2250,
+				"character": 23
+			},
+			"end": {
+				"line": 2250,
+				"character": 44
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/dataExport/destinations/{destinationId}",
+			"delete",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2269,
+				"character": 20
+			},
+			"end": {
+				"line": 2272,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/dataExport/destinations/{destinationId}/exports",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2305,
+				"character": 20
+			},
+			"end": {
+				"line": 2308,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/dataExport/exports",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2338,
+				"character": 20
+			},
+			"end": {
+				"line": 2341,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/dataExport/exports/{exportId}",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2371,
+				"character": 20
+			},
+			"end": {
+				"line": 2374,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/dataExport/exports/{exportId}",
+			"put",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2412,
+				"character": 20
+			},
+			"end": {
+				"line": 2415,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-patch-content-type",
+		"path": [
+			"paths",
+			"/dataExport/exports/{exportId}",
+			"patch",
+			"consumes"
+		],
+		"message": "A patch operation should consume 'application/merge-patch+json' content type.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2429,
+				"character": 19
+			},
+			"end": {
+				"line": 2431,
+				"character": 39
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/dataExport/exports/{exportId}",
+			"patch",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2457,
+				"character": 20
+			},
+			"end": {
+				"line": 2460,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-operation-id",
+		"path": [
+			"paths",
+			"/dataExport/exports/{exportId}",
+			"delete",
+			"operationId"
+		],
+		"message": "OperationId for delete method should contain \"Delete\"",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2466,
+				"character": 23
+			},
+			"end": {
+				"line": 2466,
+				"character": 39
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/dataExport/exports/{exportId}",
+			"delete",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2485,
+				"character": 20
+			},
+			"end": {
+				"line": 2488,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/dataExport/exports/{exportId}/destinations",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2521,
+				"character": 20
+			},
+			"end": {
+				"line": 2524,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/deviceGroups",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2563,
+				"character": 20
+			},
+			"end": {
+				"line": 2566,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/deviceGroups/{deviceGroupId}",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2596,
+				"character": 20
+			},
+			"end": {
+				"line": 2599,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/deviceGroups/{deviceGroupId}",
+			"put",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2637,
+				"character": 20
+			},
+			"end": {
+				"line": 2640,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-patch-content-type",
+		"path": [
+			"paths",
+			"/deviceGroups/{deviceGroupId}",
+			"patch",
+			"consumes"
+		],
+		"message": "A patch operation should consume 'application/merge-patch+json' content type.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2654,
+				"character": 19
+			},
+			"end": {
+				"line": 2656,
+				"character": 39
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/deviceGroups/{deviceGroupId}",
+			"patch",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2682,
+				"character": 20
+			},
+			"end": {
+				"line": 2685,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-operation-id",
+		"path": [
+			"paths",
+			"/deviceGroups/{deviceGroupId}",
+			"delete",
+			"operationId"
+		],
+		"message": "OperationId for delete method should contain \"Delete\"",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2691,
+				"character": 23
+			},
+			"end": {
+				"line": 2691,
+				"character": 44
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/deviceGroups/{deviceGroupId}",
+			"delete",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2710,
+				"character": 20
+			},
+			"end": {
+				"line": 2713,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/deviceTemplates",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2752,
+				"character": 20
+			},
+			"end": {
+				"line": 2755,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/deviceTemplates/{deviceTemplateId}",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2785,
+				"character": 20
+			},
+			"end": {
+				"line": 2788,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/deviceTemplates/{deviceTemplateId}",
+			"put",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2825,
+				"character": 20
+			},
+			"end": {
+				"line": 2828,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-patch-content-type",
+		"path": [
+			"paths",
+			"/deviceTemplates/{deviceTemplateId}",
+			"patch"
+		],
+		"message": "A patch operation should consume 'application/merge-patch+json' content type.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2833,
+				"character": 14
+			},
+			"end": {
+				"line": 2868,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/deviceTemplates/{deviceTemplateId}",
+			"patch",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2865,
+				"character": 20
+			},
+			"end": {
+				"line": 2868,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-operation-id",
+		"path": [
+			"paths",
+			"/deviceTemplates/{deviceTemplateId}",
+			"delete",
+			"operationId"
+		],
+		"message": "OperationId for delete method should contain \"Delete\"",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2874,
+				"character": 23
+			},
+			"end": {
+				"line": 2874,
+				"character": 47
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/deviceTemplates/{deviceTemplateId}",
+			"delete",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2894,
+				"character": 20
+			},
+			"end": {
+				"line": 2897,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2936,
+				"character": 20
+			},
+			"end": {
+				"line": 2939,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 2970,
+				"character": 20
+			},
+			"end": {
+				"line": 2973,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}",
+			"put",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3011,
+				"character": 20
+			},
+			"end": {
+				"line": 3014,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-patch-content-type",
+		"path": [
+			"paths",
+			"/devices/{deviceId}",
+			"patch",
+			"consumes"
+		],
+		"message": "A patch operation should consume 'application/merge-patch+json' content type.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3028,
+				"character": 19
+			},
+			"end": {
+				"line": 3030,
+				"character": 39
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}",
+			"patch",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3056,
+				"character": 20
+			},
+			"end": {
+				"line": 3059,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-operation-id",
+		"path": [
+			"paths",
+			"/devices/{deviceId}",
+			"delete",
+			"operationId"
+		],
+		"message": "OperationId for delete method should contain \"Delete\"",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3065,
+				"character": 23
+			},
+			"end": {
+				"line": 3065,
+				"character": 39
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}",
+			"delete",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3085,
+				"character": 20
+			},
+			"end": {
+				"line": 3088,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-put-path",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/attestation"
+		],
+		"message": "The path for a put should have a final path parameter.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3094,
+				"character": 38
+			},
+			"end": {
+				"line": 3245,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/attestation",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3118,
+				"character": 20
+			},
+			"end": {
+				"line": 3121,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/attestation",
+			"put",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3164,
+				"character": 20
+			},
+			"end": {
+				"line": 3167,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-patch-content-type",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/attestation",
+			"patch",
+			"consumes"
+		],
+		"message": "A patch operation should consume 'application/merge-patch+json' content type.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3186,
+				"character": 19
+			},
+			"end": {
+				"line": 3188,
+				"character": 39
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/attestation",
+			"patch",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3214,
+				"character": 20
+			},
+			"end": {
+				"line": 3217,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-operation-id",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/attestation",
+			"delete",
+			"operationId"
+		],
+		"message": "OperationId for delete method should contain \"Delete\"",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3223,
+				"character": 23
+			},
+			"end": {
+				"line": 3223,
+				"character": 50
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/attestation",
+			"delete",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3242,
+				"character": 20
+			},
+			"end": {
+				"line": 3245,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-operation-id",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/commands/{commandName}",
+			"get",
+			"operationId"
+		],
+		"message": "OperationId for get method on a collection should contain \"List\"",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3253,
+				"character": 23
+			},
+			"end": {
+				"line": 3253,
+				"character": 50
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/commands/{commandName}",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3281,
+				"character": 20
+			},
+			"end": {
+				"line": 3284,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-post-201-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/commands/{commandName}",
+			"post",
+			"responses",
+			"201"
+		],
+		"message": "Using post for a create operation is discouraged.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3319,
+				"character": 16
+			},
+			"end": {
+				"line": 3322,
+				"character": 51
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/commands/{commandName}",
+			"post",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3325,
+				"character": 20
+			},
+			"end": {
+				"line": 3328,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-pagination-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/components",
+			"get"
+		],
+		"message": "Operation might be pageable. Consider adding the x-ms-pageable extension.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3335,
+				"character": 12
+			},
+			"end": {
+				"line": 3361,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/components",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3358,
+				"character": 20
+			},
+			"end": {
+				"line": 3361,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-operation-id",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/components/{componentName}/commands/{commandName}",
+			"get",
+			"operationId"
+		],
+		"message": "OperationId for get method on a collection should contain \"List\"",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3369,
+				"character": 23
+			},
+			"end": {
+				"line": 3369,
+				"character": 59
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/components/{componentName}/commands/{commandName}",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3400,
+				"character": 20
+			},
+			"end": {
+				"line": 3403,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-post-201-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/components/{componentName}/commands/{commandName}",
+			"post",
+			"responses",
+			"201"
+		],
+		"message": "Using post for a create operation is discouraged.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3441,
+				"character": 16
+			},
+			"end": {
+				"line": 3444,
+				"character": 51
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/components/{componentName}/commands/{commandName}",
+			"post",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3447,
+				"character": 20
+			},
+			"end": {
+				"line": 3450,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-put-path",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/components/{componentName}/properties"
+		],
+		"message": "The path for a put should have a final path parameter.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3456,
+				"character": 64
+			},
+			"end": {
+				"line": 3576,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/components/{componentName}/properties",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3483,
+				"character": 20
+			},
+			"end": {
+				"line": 3486,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-lro-extension",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/components/{componentName}/properties",
+			"put"
+		],
+		"message": "Operations with a 202 response should specify `x-ms-long-running-operation: true`.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3491,
+				"character": 12
+			},
+			"end": {
+				"line": 3529,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-operation-id",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/components/{componentName}/properties",
+			"put",
+			"operationId"
+		],
+		"message": "OperationId for put method should contain \"Create\" or \"Update\"",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3492,
+				"character": 23
+			},
+			"end": {
+				"line": 3492,
+				"character": 59
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-lro-headers",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/components/{componentName}/properties",
+			"put",
+			"responses",
+			"202"
+		],
+		"message": "A 202 response should include an Operation-Location response header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3520,
+				"character": 16
+			},
+			"end": {
+				"line": 3523,
+				"character": 54
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/components/{componentName}/properties",
+			"put",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3526,
+				"character": 20
+			},
+			"end": {
+				"line": 3529,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-lro-extension",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/components/{componentName}/properties",
+			"patch"
+		],
+		"message": "Operations with a 202 response should specify `x-ms-long-running-operation: true`.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3534,
+				"character": 14
+			},
+			"end": {
+				"line": 3576,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-patch-content-type",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/components/{componentName}/properties",
+			"patch",
+			"consumes"
+		],
+		"message": "A patch operation should consume 'application/merge-patch+json' content type.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3542,
+				"character": 19
+			},
+			"end": {
+				"line": 3544,
+				"character": 39
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-lro-headers",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/components/{componentName}/properties",
+			"patch",
+			"responses",
+			"202"
+		],
+		"message": "A 202 response should include an Operation-Location response header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3567,
+				"character": 16
+			},
+			"end": {
+				"line": 3570,
+				"character": 54
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/components/{componentName}/properties",
+			"patch",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3573,
+				"character": 20
+			},
+			"end": {
+				"line": 3576,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/components/{componentName}/telemetry/{telemetryName}",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3613,
+				"character": 20
+			},
+			"end": {
+				"line": 3616,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/credentials",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3646,
+				"character": 20
+			},
+			"end": {
+				"line": 3649,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-pagination-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules",
+			"get"
+		],
+		"message": "Operation might be pageable. Consider adding the x-ms-pageable extension.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3656,
+				"character": 12
+			},
+			"end": {
+				"line": 3682,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3679,
+				"character": 20
+			},
+			"end": {
+				"line": 3682,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-operation-id",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/commands/{commandName}",
+			"get",
+			"operationId"
+		],
+		"message": "OperationId for get method on a collection should contain \"List\"",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3690,
+				"character": 23
+			},
+			"end": {
+				"line": 3690,
+				"character": 56
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/commands/{commandName}",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3721,
+				"character": 20
+			},
+			"end": {
+				"line": 3724,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-post-201-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/commands/{commandName}",
+			"post",
+			"responses",
+			"201"
+		],
+		"message": "Using post for a create operation is discouraged.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3762,
+				"character": 16
+			},
+			"end": {
+				"line": 3765,
+				"character": 51
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/commands/{commandName}",
+			"post",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3768,
+				"character": 20
+			},
+			"end": {
+				"line": 3771,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-pagination-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/components",
+			"get"
+		],
+		"message": "Operation might be pageable. Consider adding the x-ms-pageable extension.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3778,
+				"character": 12
+			},
+			"end": {
+				"line": 3807,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/components",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3804,
+				"character": 20
+			},
+			"end": {
+				"line": 3807,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-operation-id",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/components/{componentName}/commands/{commandName}",
+			"get",
+			"operationId"
+		],
+		"message": "OperationId for get method on a collection should contain \"List\"",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3815,
+				"character": 23
+			},
+			"end": {
+				"line": 3815,
+				"character": 65
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/components/{componentName}/commands/{commandName}",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3849,
+				"character": 20
+			},
+			"end": {
+				"line": 3852,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-post-201-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/components/{componentName}/commands/{commandName}",
+			"post",
+			"responses",
+			"201"
+		],
+		"message": "Using post for a create operation is discouraged.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3893,
+				"character": 16
+			},
+			"end": {
+				"line": 3896,
+				"character": 51
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/components/{componentName}/commands/{commandName}",
+			"post",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3899,
+				"character": 20
+			},
+			"end": {
+				"line": 3902,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-put-path",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/components/{componentName}/properties"
+		],
+		"message": "The path for a put should have a final path parameter.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3908,
+				"character": 85
+			},
+			"end": {
+				"line": 4037,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/components/{componentName}/properties",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3938,
+				"character": 20
+			},
+			"end": {
+				"line": 3941,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-lro-extension",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/components/{componentName}/properties",
+			"put"
+		],
+		"message": "Operations with a 202 response should specify `x-ms-long-running-operation: true`.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3946,
+				"character": 12
+			},
+			"end": {
+				"line": 3987,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-operation-id",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/components/{componentName}/properties",
+			"put",
+			"operationId"
+		],
+		"message": "OperationId for put method should contain \"Create\" or \"Update\"",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3947,
+				"character": 23
+			},
+			"end": {
+				"line": 3947,
+				"character": 65
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-lro-headers",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/components/{componentName}/properties",
+			"put",
+			"responses",
+			"202"
+		],
+		"message": "A 202 response should include an Operation-Location response header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3978,
+				"character": 16
+			},
+			"end": {
+				"line": 3981,
+				"character": 54
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/components/{componentName}/properties",
+			"put",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3984,
+				"character": 20
+			},
+			"end": {
+				"line": 3987,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-lro-extension",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/components/{componentName}/properties",
+			"patch"
+		],
+		"message": "Operations with a 202 response should specify `x-ms-long-running-operation: true`.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 3992,
+				"character": 14
+			},
+			"end": {
+				"line": 4037,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-patch-content-type",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/components/{componentName}/properties",
+			"patch",
+			"consumes"
+		],
+		"message": "A patch operation should consume 'application/merge-patch+json' content type.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4000,
+				"character": 19
+			},
+			"end": {
+				"line": 4002,
+				"character": 39
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-lro-headers",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/components/{componentName}/properties",
+			"patch",
+			"responses",
+			"202"
+		],
+		"message": "A 202 response should include an Operation-Location response header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4028,
+				"character": 16
+			},
+			"end": {
+				"line": 4031,
+				"character": 54
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/components/{componentName}/properties",
+			"patch",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4034,
+				"character": 20
+			},
+			"end": {
+				"line": 4037,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/components/{componentName}/telemetry/{telemetryName}",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4077,
+				"character": 20
+			},
+			"end": {
+				"line": 4080,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-put-path",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/properties"
+		],
+		"message": "The path for a put should have a final path parameter.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4086,
+				"character": 58
+			},
+			"end": {
+				"line": 4209,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/properties",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4114,
+				"character": 20
+			},
+			"end": {
+				"line": 4117,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-lro-extension",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/properties",
+			"put"
+		],
+		"message": "Operations with a 202 response should specify `x-ms-long-running-operation: true`.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4122,
+				"character": 12
+			},
+			"end": {
+				"line": 4161,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-operation-id",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/properties",
+			"put",
+			"operationId"
+		],
+		"message": "OperationId for put method should contain \"Create\" or \"Update\"",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4123,
+				"character": 23
+			},
+			"end": {
+				"line": 4123,
+				"character": 56
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-lro-headers",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/properties",
+			"put",
+			"responses",
+			"202"
+		],
+		"message": "A 202 response should include an Operation-Location response header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4152,
+				"character": 16
+			},
+			"end": {
+				"line": 4155,
+				"character": 54
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/properties",
+			"put",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4158,
+				"character": 20
+			},
+			"end": {
+				"line": 4161,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-lro-extension",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/properties",
+			"patch"
+		],
+		"message": "Operations with a 202 response should specify `x-ms-long-running-operation: true`.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4166,
+				"character": 14
+			},
+			"end": {
+				"line": 4209,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-patch-content-type",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/properties",
+			"patch",
+			"consumes"
+		],
+		"message": "A patch operation should consume 'application/merge-patch+json' content type.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4175,
+				"character": 19
+			},
+			"end": {
+				"line": 4177,
+				"character": 39
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-lro-headers",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/properties",
+			"patch",
+			"responses",
+			"202"
+		],
+		"message": "A 202 response should include an Operation-Location response header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4200,
+				"character": 16
+			},
+			"end": {
+				"line": 4203,
+				"character": 54
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/properties",
+			"patch",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4206,
+				"character": 20
+			},
+			"end": {
+				"line": 4209,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/modules/{moduleName}/telemetry/{telemetryName}",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4246,
+				"character": 20
+			},
+			"end": {
+				"line": 4249,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-put-path",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/properties"
+		],
+		"message": "The path for a put should have a final path parameter.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4255,
+				"character": 37
+			},
+			"end": {
+				"line": 4369,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/properties",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4280,
+				"character": 20
+			},
+			"end": {
+				"line": 4283,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-lro-extension",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/properties",
+			"put"
+		],
+		"message": "Operations with a 202 response should specify `x-ms-long-running-operation: true`.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4288,
+				"character": 12
+			},
+			"end": {
+				"line": 4324,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-operation-id",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/properties",
+			"put",
+			"operationId"
+		],
+		"message": "OperationId for put method should contain \"Create\" or \"Update\"",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4289,
+				"character": 23
+			},
+			"end": {
+				"line": 4289,
+				"character": 50
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-lro-headers",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/properties",
+			"put",
+			"responses",
+			"202"
+		],
+		"message": "A 202 response should include an Operation-Location response header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4315,
+				"character": 16
+			},
+			"end": {
+				"line": 4318,
+				"character": 54
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/properties",
+			"put",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4321,
+				"character": 20
+			},
+			"end": {
+				"line": 4324,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-lro-extension",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/properties",
+			"patch"
+		],
+		"message": "Operations with a 202 response should specify `x-ms-long-running-operation: true`.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4329,
+				"character": 14
+			},
+			"end": {
+				"line": 4369,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-patch-content-type",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/properties",
+			"patch",
+			"consumes"
+		],
+		"message": "A patch operation should consume 'application/merge-patch+json' content type.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4338,
+				"character": 19
+			},
+			"end": {
+				"line": 4340,
+				"character": 39
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-lro-headers",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/properties",
+			"patch",
+			"responses",
+			"202"
+		],
+		"message": "A 202 response should include an Operation-Location response header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4360,
+				"character": 16
+			},
+			"end": {
+				"line": 4363,
+				"character": 54
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/properties",
+			"patch",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4366,
+				"character": 20
+			},
+			"end": {
+				"line": 4369,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-pagination-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/relationships",
+			"get"
+		],
+		"message": "Operation might be pageable. Consider adding the x-ms-pageable extension.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4376,
+				"character": 12
+			},
+			"end": {
+				"line": 4403,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/relationships",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4400,
+				"character": 20
+			},
+			"end": {
+				"line": 4403,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/relationships/{relationshipId}",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4437,
+				"character": 20
+			},
+			"end": {
+				"line": 4440,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/relationships/{relationshipId}",
+			"put",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4481,
+				"character": 20
+			},
+			"end": {
+				"line": 4484,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-patch-content-type",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/relationships/{relationshipId}",
+			"patch",
+			"consumes"
+		],
+		"message": "A patch operation should consume 'application/merge-patch+json' content type.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4498,
+				"character": 19
+			},
+			"end": {
+				"line": 4500,
+				"character": 39
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/relationships/{relationshipId}",
+			"patch",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4529,
+				"character": 20
+			},
+			"end": {
+				"line": 4532,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-operation-id",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/relationships/{relationshipId}",
+			"delete",
+			"operationId"
+		],
+		"message": "OperationId for delete method should contain \"Delete\"",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4538,
+				"character": 23
+			},
+			"end": {
+				"line": 4538,
+				"character": 51
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/relationships/{relationshipId}",
+			"delete",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4561,
+				"character": 20
+			},
+			"end": {
+				"line": 4564,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/devices/{deviceId}/telemetry/{telemetryName}",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4598,
+				"character": 20
+			},
+			"end": {
+				"line": 4601,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-put-path",
+		"path": [
+			"paths",
+			"/fileUploads"
+		],
+		"message": "The path for a put should have a final path parameter.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4607,
+				"character": 19
+			},
+			"end": {
+				"line": 4734,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/fileUploads",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4628,
+				"character": 20
+			},
+			"end": {
+				"line": 4631,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/fileUploads",
+			"put",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4665,
+				"character": 20
+			},
+			"end": {
+				"line": 4668,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-patch-content-type",
+		"path": [
+			"paths",
+			"/fileUploads",
+			"patch",
+			"consumes"
+		],
+		"message": "A patch operation should consume 'application/merge-patch+json' content type.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4681,
+				"character": 19
+			},
+			"end": {
+				"line": 4683,
+				"character": 39
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/fileUploads",
+			"patch",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4706,
+				"character": 20
+			},
+			"end": {
+				"line": 4709,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-operation-id",
+		"path": [
+			"paths",
+			"/fileUploads",
+			"delete",
+			"operationId"
+		],
+		"message": "OperationId for delete method should contain \"Delete\"",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4715,
+				"character": 23
+			},
+			"end": {
+				"line": 4715,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/fileUploads",
+			"delete",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4731,
+				"character": 20
+			},
+			"end": {
+				"line": 4734,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/jobs",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4764,
+				"character": 20
+			},
+			"end": {
+				"line": 4767,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/jobs/{jobId}",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4798,
+				"character": 20
+			},
+			"end": {
+				"line": 4801,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/jobs/{jobId}",
+			"put",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4839,
+				"character": 20
+			},
+			"end": {
+				"line": 4842,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-pagination-response",
+		"path": [
+			"paths",
+			"/jobs/{jobId}/devices",
+			"get"
+		],
+		"message": "Operation might be pageable. Consider adding the x-ms-pageable extension.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4849,
+				"character": 12
+			},
+			"end": {
+				"line": 4876,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/jobs/{jobId}/devices",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4873,
+				"character": 20
+			},
+			"end": {
+				"line": 4876,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-operation-id",
+		"path": [
+			"paths",
+			"/jobs/{jobId}/rerun/{rerunId}",
+			"put",
+			"operationId"
+		],
+		"message": "OperationId for put method should contain \"Create\" or \"Update\"",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4884,
+				"character": 23
+			},
+			"end": {
+				"line": 4884,
+				"character": 35
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"paths",
+			"/jobs/{jobId}/rerun/{rerunId}",
+			"put",
+			"parameters",
+			"2"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 4899,
+				"character": 10
+			},
+			"end": {
+				"line": 4905,
+				"character": 28
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/jobs/{jobId}/rerun/{rerunId}",
+			"put",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4915,
+				"character": 20
+			},
+			"end": {
+				"line": 4918,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/jobs/{jobId}/resume",
+			"post",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4946,
+				"character": 20
+			},
+			"end": {
+				"line": 4949,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/jobs/{jobId}/stop",
+			"post",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 4977,
+				"character": 20
+			},
+			"end": {
+				"line": 4980,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/organizations",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 5010,
+				"character": 20
+			},
+			"end": {
+				"line": 5013,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"paths",
+			"/organizations/{organizationId}",
+			"get",
+			"parameters",
+			"1"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 5032,
+				"character": 10
+			},
+			"end": {
+				"line": 5037,
+				"character": 28
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/organizations/{organizationId}",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 5047,
+				"character": 20
+			},
+			"end": {
+				"line": 5050,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"paths",
+			"/organizations/{organizationId}",
+			"put",
+			"parameters",
+			"1"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 5067,
+				"character": 10
+			},
+			"end": {
+				"line": 5072,
+				"character": 28
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/organizations/{organizationId}",
+			"put",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 5091,
+				"character": 20
+			},
+			"end": {
+				"line": 5094,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-patch-content-type",
+		"path": [
+			"paths",
+			"/organizations/{organizationId}",
+			"patch",
+			"consumes"
+		],
+		"message": "A patch operation should consume 'application/merge-patch+json' content type.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 5107,
+				"character": 19
+			},
+			"end": {
+				"line": 5109,
+				"character": 39
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"paths",
+			"/organizations/{organizationId}",
+			"patch",
+			"parameters",
+			"1"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 5115,
+				"character": 10
+			},
+			"end": {
+				"line": 5120,
+				"character": 28
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/organizations/{organizationId}",
+			"patch",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 5139,
+				"character": 20
+			},
+			"end": {
+				"line": 5142,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-operation-id",
+		"path": [
+			"paths",
+			"/organizations/{organizationId}",
+			"delete",
+			"operationId"
+		],
+		"message": "OperationId for delete method should contain \"Delete\"",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 5148,
+				"character": 23
+			},
+			"end": {
+				"line": 5148,
+				"character": 45
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"paths",
+			"/organizations/{organizationId}",
+			"delete",
+			"parameters",
+			"1"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 5159,
+				"character": 10
+			},
+			"end": {
+				"line": 5164,
+				"character": 28
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/organizations/{organizationId}",
+			"delete",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 5171,
+				"character": 20
+			},
+			"end": {
+				"line": 5174,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-pagination-response",
+		"path": [
+			"paths",
+			"/query",
+			"post"
+		],
+		"message": "Operation might be pageable. Consider adding the x-ms-pageable extension.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 5181,
+				"character": 13
+			},
+			"end": {
+				"line": 5213,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/query",
+			"post",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 5210,
+				"character": 20
+			},
+			"end": {
+				"line": 5213,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/roles",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 5243,
+				"character": 20
+			},
+			"end": {
+				"line": 5246,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"paths",
+			"/roles/{roleId}",
+			"get",
+			"parameters",
+			"1"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 5265,
+				"character": 10
+			},
+			"end": {
+				"line": 5270,
+				"character": 28
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/roles/{roleId}",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 5280,
+				"character": 20
+			},
+			"end": {
+				"line": 5283,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/users",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 5313,
+				"character": 20
+			},
+			"end": {
+				"line": 5316,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"paths",
+			"/users/{userId}",
+			"get",
+			"parameters",
+			"1"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 5335,
+				"character": 10
+			},
+			"end": {
+				"line": 5340,
+				"character": 28
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/users/{userId}",
+			"get",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 5350,
+				"character": 20
+			},
+			"end": {
+				"line": 5353,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"paths",
+			"/users/{userId}",
+			"put",
+			"parameters",
+			"1"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 5373,
+				"character": 10
+			},
+			"end": {
+				"line": 5378,
+				"character": 28
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/users/{userId}",
+			"put",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 5397,
+				"character": 20
+			},
+			"end": {
+				"line": 5400,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-patch-content-type",
+		"path": [
+			"paths",
+			"/users/{userId}",
+			"patch"
+		],
+		"message": "A patch operation should consume 'application/merge-patch+json' content type.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 5405,
+				"character": 14
+			},
+			"end": {
+				"line": 5447,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"paths",
+			"/users/{userId}",
+			"patch",
+			"parameters",
+			"1"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 5420,
+				"character": 10
+			},
+			"end": {
+				"line": 5425,
+				"character": 28
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/users/{userId}",
+			"patch",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 5444,
+				"character": 20
+			},
+			"end": {
+				"line": 5447,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-operation-id",
+		"path": [
+			"paths",
+			"/users/{userId}",
+			"delete",
+			"operationId"
+		],
+		"message": "OperationId for delete method should contain \"Delete\"",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 5453,
+				"character": 23
+			},
+			"end": {
+				"line": 5453,
+				"character": 37
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"paths",
+			"/users/{userId}",
+			"delete",
+			"parameters",
+			"1"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 5464,
+				"character": 10
+			},
+			"end": {
+				"line": 5469,
+				"character": 28
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-error-response",
+		"path": [
+			"paths",
+			"/users/{userId}",
+			"delete",
+			"responses",
+			"default"
+		],
+		"message": "Error response should contain a x-ms-error-code header.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 5476,
+				"character": 20
+			},
+			"end": {
+				"line": 5479,
+				"character": 43
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"parameters",
+			"CommandName"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 5497,
+				"character": 18
+			},
+			"end": {
+				"line": 5503,
+				"character": 22
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"parameters",
+			"ComponentName"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 5505,
+				"character": 20
+			},
+			"end": {
+				"line": 5511,
+				"character": 22
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"parameters",
+			"DestinationId"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 5513,
+				"character": 20
+			},
+			"end": {
+				"line": 5519,
+				"character": 22
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"parameters",
+			"DeviceGroupId"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 5521,
+				"character": 20
+			},
+			"end": {
+				"line": 5527,
+				"character": 22
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"parameters",
+			"DeviceId"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 5529,
+				"character": 15
+			},
+			"end": {
+				"line": 5535,
+				"character": 22
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"parameters",
+			"DeviceTemplateId"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 5537,
+				"character": 23
+			},
+			"end": {
+				"line": 5543,
+				"character": 22
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"parameters",
+			"ExportId"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 5545,
+				"character": 15
+			},
+			"end": {
+				"line": 5551,
+				"character": 22
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-parameter-names-convention",
+		"path": [
+			"parameters",
+			"Filter",
+			"name"
+		],
+		"message": "Parameter name \"$filter\" should not begin with '$' or '@'.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 5555,
+				"character": 14
+			},
+			"end": {
+				"line": 5555,
+				"character": 23
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"parameters",
+			"JobId"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 5561,
+				"character": 12
+			},
+			"end": {
+				"line": 5567,
+				"character": 22
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"parameters",
+			"ModuleName"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 5569,
+				"character": 17
+			},
+			"end": {
+				"line": 5575,
+				"character": 22
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-parameter-names-convention",
+		"path": [
+			"parameters",
+			"OrderBy",
+			"name"
+		],
+		"message": "Parameter name \"$orderby\" should not begin with '$' or '@'.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 5579,
+				"character": 14
+			},
+			"end": {
+				"line": 5579,
+				"character": 24
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"parameters",
+			"RelationshipId"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 5585,
+				"character": 21
+			},
+			"end": {
+				"line": 5591,
+				"character": 22
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-path-parameter-schema",
+		"path": [
+			"parameters",
+			"TelemetryName"
+		],
+		"message": "Path parameter should specify a maximum length (maxLength) and characters allowed (pattern).",
+		"severity": 2,
+		"range": {
+			"start": {
+				"line": 5601,
+				"character": 20
+			},
+			"end": {
+				"line": 5607,
+				"character": 22
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	},
+	{
+		"code": "az-parameter-names-convention",
+		"path": [
+			"parameters",
+			"Top",
+			"name"
+		],
+		"message": "Parameter name \"$top\" should not begin with '$' or '@'.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 5611,
+				"character": 14
+			},
+			"end": {
+				"line": 5611,
+				"character": 20
+			}
+		},
+		"source": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/13e842cb412711372f2920c42c3373c1992bced1/specification/iotcentral/data-plane/Microsoft.IoTCentral/preview/1.2-preview/iotcentral.json"
+	}
+]
