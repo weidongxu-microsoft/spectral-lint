@@ -7,7 +7,7 @@ const { Octokit } = require("@octokit/rest");
 async function lintAsync() {
     const owner = "Azure";
     const repo = "azure-rest-api-specs";
-    const pullNumber = 18688;
+    const pullNumber = 6771;
 
     const lintOutputFilepath = path.join(__dirname, "output.json")
 
@@ -31,8 +31,8 @@ async function lintAsync() {
         if (filename.endsWith(".json") && !filename.includes("/examples/")) {
             console.log(`found JSON ${filename} from pull request ${pullNumber}`);
 
-            const rawUrl = `https://raw.githubusercontent.com/Azure/azure-rest-api-specs/${commitId}/${filename}`;
-            const url = `https://www.github.com/Azure/azure-rest-api-specs/blob/${commitId}/${filename}`;
+            const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${commitId}/${filename}`;
+            const url = `https://www.github.com/Azure/${owner}/${repo}/blob/${commitId}/${filename}`;
             console.log(`linting ${rawUrl}`);
             if (fs.existsSync(lintOutputFilepath)) { 
                 fs.rmSync(lintOutputFilepath);
