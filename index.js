@@ -7,7 +7,7 @@ const { Octokit } = require("@octokit/rest");
 async function lintAsync() {
     const owner = "Azure";
     const repo = "azure-rest-api-specs";
-    const pullNumber = 6771;
+    const pullNumber = 18707;
 
     const lintOutputFilepath = path.join(__dirname, "output.json")
 
@@ -63,13 +63,13 @@ function logLintResults(lintResults, url) {
 }
 
 async function githubReview(lintResults, octokit, owner, repo, pullNumber, url) {
-    var markdown = "| Message | Location |\n";
+    let markdown = "| Message | Location |\n";
     markdown += "|---|---|\n";
     const fileShort = new URL(url).pathname.split("/").pop();
     for (const lintResult of lintResults) {
         const message = lintResult.message;
         const [start, end] = startEndFromRange(lintResult.range);
-        var fileLocation;
+        let fileLocation;
         if (start) {
             fileLocation = `#L${start}-L${end}`;
         } else {
@@ -105,20 +105,29 @@ async function githubReviewComments(lintResults, octokit, owner, repo, pullNumbe
         }
     }
 
-    await octokit.rest.pulls.createReview({
-        owner: owner, 
-        repo: repo, 
-        pull_number: pullNumber,
-        body: "spectral lint",
-        commit_id: commitId, 
-        event: "COMMENT",
-        comments: comments
-    });
+    const batchSize = 20;
+    for (let index = 0; index < comments.length; index += batchSize) {
+        const max = Math.min(index + batchSize, comments.length);
+        const batchComments = comments.slice(index, max);
+
+        console.log(`comment ${index} to ${max}`);
+        await octokit.rest.pulls.createReview({
+            owner: owner, 
+            repo: repo, 
+            pull_number: pullNumber,
+            body: "spectral lint",
+            commit_id: commitId, 
+            event: "COMMENT",
+            comments: batchComments
+        });
+
+        await new Promise(r => setTimeout(r, 15000));
+    }
 }
 
 function startEndFromRange(range) {
-    var start = range.start.line + 1;
-    var end = range.end.line + 1;
+    let start = range.start.line + 1;
+    let end = range.end.line + 1;
     if (start == end) {
         start = undefined;
     } else {
