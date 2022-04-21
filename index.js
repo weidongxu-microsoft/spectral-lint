@@ -7,7 +7,7 @@ const { Octokit } = require("@octokit/rest");
 async function lintAsync() {
     const owner = "Azure";
     const repo = "azure-rest-api-specs";
-    const pullNumber = 18707;
+    const pullNumber = 18742;
 
     const lintOutputFilepath = path.join(__dirname, "output.json")
 
@@ -32,7 +32,7 @@ async function lintAsync() {
             console.log(`found JSON ${filename} from pull request ${pullNumber}`);
 
             const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${commitId}/${filename}`;
-            const url = `https://www.github.com/Azure/${owner}/${repo}/blob/${commitId}/${filename}`;
+            const url = `https://www.github.com/${owner}/${repo}/blob/${commitId}/${filename}`;
             console.log(`linting ${rawUrl}`);
             if (fs.existsSync(lintOutputFilepath)) { 
                 fs.rmSync(lintOutputFilepath);
@@ -43,7 +43,7 @@ async function lintAsync() {
                 const lintResults = JSON.parse(fs.readFileSync(lintOutputFilepath, { encoding: 'utf-8' }));
                 logLintResults(lintResults, url);
                 // await githubReview(lintResults, octokit, owner, repo, pullNumber, url);
-                await githubReviewComments(lintResults, octokit, owner, repo, pullNumber, commitId, filename);
+                //await githubReviewComments(lintResults, octokit, owner, repo, pullNumber, commitId, filename);
             }
         }
     }
