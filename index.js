@@ -51,13 +51,16 @@ async function lintAsync() {
 
 function logLintResults(lintResults, url) {
     for (const lintResult of lintResults) {
-        const message = lintResult.message;
-        const [start, end] = startEndFromRange(lintResult.range);
-        console.log(`${lintResult.severity}\t${end}\t${message}`);
-        if (start) {
-            console.log(`${url}#L${start}-L${end}`);
-        } else {
-            console.log(`${url}#L${end}`);
+        const severity = lintResult.severity;
+        if (severity <= 1) {
+            const message = lintResult.message;
+            const [start, end] = startEndFromRange(lintResult.range);
+            console.log(`${lintResult.severity}\t${end}\t${message}`);
+            if (start) {
+                console.log(`${url}#L${start}-L${end}`);
+            } else {
+                console.log(`${url}#L${end}`);
+            }
         }
     }
 }
@@ -67,15 +70,18 @@ async function githubReview(lintResults, octokit, owner, repo, pullNumber, url) 
     markdown += "|---|---|\n";
     const fileShort = new URL(url).pathname.split("/").pop();
     for (const lintResult of lintResults) {
-        const message = lintResult.message;
-        const [start, end] = startEndFromRange(lintResult.range);
-        let fileLocation;
-        if (start) {
-            fileLocation = `#L${start}-L${end}`;
-        } else {
-            fileLocation = `#L${end}`;
+        const severity = lintResult.severity;
+        if (severity <= 1) {
+            const message = lintResult.message;
+            const [start, end] = startEndFromRange(lintResult.range);
+            let fileLocation;
+            if (start) {
+                fileLocation = `#L${start}-L${end}`;
+            } else {
+                fileLocation = `#L${end}`;
+            }
+            markdown += `| ${message} | [${fileShort}${fileLocation}](${url}${fileLocation}) |\n`
         }
-        markdown += `| ${message} | [${fileShort}${fileLocation}](${url}${fileLocation}) |\n`
     }
 
     await octokit.rest.pulls.createReview({
